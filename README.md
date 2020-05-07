@@ -30,14 +30,16 @@ define( 'YA_FILES_FOLDER', 'files' );
 define( 'YA_DB_FOLDER', 'db' );
 ```
 4. Change `OFFSET=2`, if you need to keep data more than 2 weeks
-5. Add cron job with supported params `0 10 * * 1 cd /var/www/DOCUMENT_ROOT/ && sh backup.sh [param1 param2 param 3]`
+5. Add cron job with supported params
+
+`0 10 * * 1 cd /var/www/DOCUMENT_ROOT/ && sh backup.sh [param1 param2 param 3]`
 
 ### CLI
 ```markdown
 
 # Usage:
 
-    sh backup.sh [param1 param2 param 3]
+    sh backup.sh [param1 param2 param3]
 
 # Params:
 
