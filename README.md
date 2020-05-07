@@ -60,7 +60,7 @@ must be change to:
 
 `tar -czf --exclude='./folder1' --exclude='./folder2' backups/backup.files.full.tar.gz wp-content/uploads`
 
-### Recomendations
+### Recommendations
 * Run full backup once a week on monday morning
 * Clear expired data once a week on sunday/monday
 * Backup database daily
